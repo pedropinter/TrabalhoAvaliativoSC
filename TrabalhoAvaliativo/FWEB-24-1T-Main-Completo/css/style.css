@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: 0.5s;
+}
+
+body {
+  background: #E0F7FA;
+}
+main{
+    height: 71vh;
+}
+.cartao1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10vh;
+  flex-wrap: wrap;
+}
+
+#texto {
+  flex: 1;
+  padding-right: 20px;
+  font-size: 3vh;
+}
+
+#imagem {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+#rosto {
+  width: 55vh;
+  border-radius: 5%;
+      border: 3px solid rgb(222, 184, 135);
+
+}
+button {
+  margin-left: 200px;
+  border-radius: 20px;
+  background: none;
+  width: 250px;
+  height: 100px;
+  border: 1px solid black;
+  margin-top: 10px;
+  align-self: center;
+}
+
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
